@@ -1,0 +1,9 @@
+{
+  "name": "qorvex-full-stack",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix qorvex/frontend run dev",
+    "build": "npm --prefix qorvex/frontend run build"
+  }
+}

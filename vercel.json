@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm --prefix qorvex/frontend install && npm --prefix qorvex/frontend run build",
+  "outputDirectory": "qorvex/frontend/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
